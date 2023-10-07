@@ -48,7 +48,7 @@ const Node = class Node {
         }
         return node;
     }    
-    add(value){
+    push(value){
         return this.insert(this,value)
     }
     static insert(root,value){
